@@ -1,0 +1,124 @@
+
+10월 30, 2024 10:12:30.24 NEW SESSION
+10월 30, 2024 10:12:30.24 [11464:14120:1030/101230.245:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 30, 2024 10:12:31.17 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 30, 2024 10:12:51.40 [11464:14120:1030/101251.400:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 30, 2024 10:13:19.23 [11464:12544:1030/101319.234:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 30, 2024 10:13:19.23 [11464:12544:1030/101319.234:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 30, 2024 10:13:48.98 [11464:14120:1030/101348.986:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 30, 2024 10:15:40.89 [11464:14120:1030/101540.890:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 30, 2024 10:19:02.40 [11464:14120:1030/101902.409:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 30, 2024 10:27:01.19 [11464:14120:1030/102701.191:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+11월 08, 2024 10:24:38.02 NEW SESSION
+11월 08, 2024 10:24:38.02 [15440:19632:1108/102438.017:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 08, 2024 10:24:38.25 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 08, 2024 10:25:01.62 [15440:19632:1108/102501.627:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 08, 2024 10:25:47.74 [15440:19632:1108/102547.746:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 08, 2024 10:27:27.74 [15440:19632:1108/102727.741:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 08, 2024 10:31:27.62 [15440:19632:1108/103127.622:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 08, 2024 10:36:49.71 [15440:19632:1108/103649.716:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 08, 2024 12:36:55.78 [15440:19632:1108/123655.781:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 08, 2024 12:37:57.70 [15440:19632:1108/123756.664:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 08, 2024 12:37:58.50 [15440:19632:1108/123758.501:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 08, 2024 13:53:25.84 [15440:19632:1108/135325.839:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 08, 2024 14:07:30.41 [15440:30036:1108/140730.417:ERROR:service_worker_task_queue.cc(196)] DidStartWorkerFail efaidnbmnnnibpcajpcglclefindmkaj: 14
+
+11월 18, 2024 10:10:56.12 NEW SESSION
+11월 18, 2024 10:10:56.12 [27412:412:1118/101056.125:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 18, 2024 10:10:57.15 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 18, 2024 10:11:21.11 [27412:412:1118/101121.110:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 18, 2024 10:12:15.58 [27412:412:1118/101215.588:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 18, 2024 10:14:00.19 [27412:412:1118/101400.189:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 18, 2024 10:17:17.22 [27412:412:1118/101717.225:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 18, 2024 10:22:40.37 [27412:412:1118/102240.372:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 18, 2024 10:51:34.53 [31648:10524:1118/105134.538:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 18, 2024 10:51:34.65 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 18, 2024 10:51:56.60 [31648:10524:1118/105156.604:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+11월 22, 2024 14:02:37.02 NEW SESSION
+11월 22, 2024 14:02:37.02 [21968:22640:1122/140237.020:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:02:38.10 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 22, 2024 14:03:03.79 [21968:22640:1122/140303.791:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:03:53.58 [21968:22640:1122/140353.579:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:05:21.09 [21968:22640:1122/140521.096:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:09:07.08 [21968:22640:1122/140907.081:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:16:53.69 [21968:22640:1122/141653.693:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:30:25.68 [14692:18192:1122/143025.683:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:30:25.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 22, 2024 14:30:55.36 [14692:18192:1122/143055.360:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:31:54.12 [14692:18192:1122/143154.121:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:33:44.95 [14692:18192:1122/143344.954:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:36:36.27 [14692:18192:1122/143636.272:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:41:44.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 22, 2024 14:41:45.08 [10976:15756:1122/144145.088:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:42:11.66 [10976:15756:1122/144211.665:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:42:59.18 [10976:15756:1122/144259.186:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:44:35.93 [10976:15756:1122/144435.938:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+11월 22, 2024 14:51:22.84 NEW SESSION
+11월 22, 2024 14:51:22.84 [13724:4108:1122/145122.836:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:51:22.97 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 22, 2024 14:51:50.56 [13724:4108:1122/145150.562:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:52:49.88 [13724:4108:1122/145249.888:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:54:22.87 [13724:4108:1122/145422.872:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 14:57:47.59 [13724:4108:1122/145747.596:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 15:04:39.68 [13724:4108:1122/150439.680:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 15:09:33.11 [13724:22252:1122/150933.116:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+11월 22, 2024 15:49:16.34 [24540:17112:1122/154916.348:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 15:49:16.48 Created TensorFlow Lite XNNPACK delegate for CPU.
+11월 22, 2024 15:49:42.00 [24540:17112:1122/154942.000:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 22, 2024 15:50:26.58 [24540:17112:1122/155026.585:ERROR:registration_request.cc(291)] Registration response error message: QUOTA_EXCEEDED
+11월 22, 2024 16:07:18.45 [24540:22804:1122/160718.456:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+11월 22, 2024 16:44:26.91 [24540:22804:1122/164426.914:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+11월 22, 2024 17:50:04.33 [24540:17112:1122/175004.331:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 22, 2024 17:50:09.37 [24540:17112:1122/175009.368:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 22, 2024 20:10:48.48 [24540:17112:1122/201048.486:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+11월 22, 2024 20:10:49.30 [24540:22560:1122/201049.308:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+11월 25, 2024 10:02:10.07 [24540:17112:1125/100210.069:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+11월 25, 2024 10:02:10.15 [24540:6680:1125/100210.157:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+11월 25, 2024 10:02:19.80 [24540:17112:1125/100219.799:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 25, 2024 10:02:20.44 [24540:22804:1125/100220.445:ERROR:device_event_log_impl.cc(201)] [10:02:20.445] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+11월 25, 2024 10:02:46.64 [24540:17112:1125/100246.648:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 25, 2024 10:03:39.43 [24540:17112:1125/100339.431:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 25, 2024 10:05:02.49 [24540:17112:1125/100502.491:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 25, 2024 10:07:49.49 [24540:17112:1125/100749.499:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 25, 2024 10:14:51.31 [24540:17112:1125/101451.316:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 25, 2024 10:49:09.43 [24540:22804:1125/104909.430:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 25, 2024 10:49:30.83 [24540:22804:1125/104930.834:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 25, 2024 11:03:21.37 [24540:22804:1125/110321.373:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+11월 25, 2024 11:03:28.52 [24540:22804:1125/110328.520:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+11월 25, 2024 11:40:25.02 [24540:22804:1125/114025.021:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+11월 25, 2024 12:17:10.59 [24540:17112:1125/121318.947:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 25, 2024 12:33:48.51 [24540:17112:1125/123348.511:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 25, 2024 13:43:53.82 [24540:17112:1125/134353.828:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+11월 25, 2024 15:22:08.34 [24540:17112:1125/151149.993:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 25, 2024 16:59:22.70 [24540:17112:1125/165922.702:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 25, 2024 17:03:52.35 [24540:17112:1125/170352.349:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+11월 25, 2024 17:46:52.30 [24540:17112:1125/174652.309:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 25, 2024 18:37:17.52 [24540:17112:1125/183717.523:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+11월 25, 2024 18:37:18.49 [24540:21640:1125/183718.498:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_IO_SUSPENDED)
+11월 27, 2024 01:25:57.03 [24540:17112:1127/012557.030:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+11월 27, 2024 01:25:57.11 [24540:21640:1127/012557.110:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+11월 27, 2024 01:26:03.95 [24540:17112:1127/012603.957:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 27, 2024 01:26:28.00 [24540:17112:1127/012628.000:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 27, 2024 01:27:16.39 [24540:17112:1127/012716.393:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 27, 2024 01:29:07.40 [24540:17112:1127/012907.402:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 27, 2024 01:31:20.37 [24540:17112:1127/013120.373:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+11월 27, 2024 05:11:49.49 [24540:17112:1127/051149.495:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+11월 27, 2024 05:11:50.64 [24540:17112:1127/051150.647:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 29, 2024 10:11:02.16 [24540:17112:1129/101102.168:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+11월 29, 2024 10:11:02.22 [24540:23688:1129/101102.169:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+11월 29, 2024 10:11:02.29 [24540:17112:1129/101102.178:ERROR:checkin_request.cc(242)] Check-in request got net error: -106
+11월 29, 2024 10:11:02.29 [24540:17112:1129/101102.216:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+11월 29, 2024 10:11:02.32 [24540:17112:1129/101102.231:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+11월 29, 2024 10:11:02.32 [24540:17112:1129/101102.272:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+11월 29, 2024 10:11:13.31 [24540:17112:1129/101113.317:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 29, 2024 10:11:14.25 [24540:22804:1129/101114.253:ERROR:device_event_log_impl.cc(201)] [10:11:14.254] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+11월 29, 2024 10:11:35.85 [24540:17112:1129/101135.854:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 29, 2024 10:12:27.55 [24540:17112:1129/101227.554:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 29, 2024 10:14:17.14 [24540:17112:1129/101417.127:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 29, 2024 10:17:04.25 [24540:17112:1129/101704.252:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 29, 2024 10:23:54.64 [24540:17112:1129/102354.641:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+11월 29, 2024 11:12:43.67 [24540:22804:1129/111243.673:ERROR:interface_endpoint_client.cc(725)] Message 1301349602 rejected by interface blink.mojom.FrameWidgetHost
+11월 29, 2024 11:26:32.90 [24540:22804:1129/112632.907:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost

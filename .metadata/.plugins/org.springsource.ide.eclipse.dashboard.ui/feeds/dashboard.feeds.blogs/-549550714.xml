@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 09 Dec 2024 00:36:48 GMT</lastBuildDate><item><title><![CDATA[A Bootiful Podcast: Spring Security lead Rob Winch on the amazing Spring Security 6.4 release]]></title><link>https://spring.io/blog/2024/12/05/a-bootiful-podcast-rob-winch</link><guid isPermaLink="true">https://spring.io/blog/2024/12/05/a-bootiful-podcast-rob-winch</guid><dc:creator><![CDATA[joshlong]]></dc:creator><pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In this installment, we&apos;ll talk to the amazing Rob Winch, lead of Spring Security 6.4, about the jam-packed new release! #spring #springboot #security #java&lt;/p&gt;
+&lt;iframe title=&quot;project lead Rob Winch on the amazing new Spring Security 6.4 release&quot; allowtransparency=&quot;true&quot; height=&quot;300&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:300px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?from=embed&amp;i=qbdhw-175e687-pb&amp;square=1&amp;share=1&amp;download=1&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;rtl=0&amp;logo_link=&amp;btn-skin=7&amp;size=300&quot; loading=&quot;lazy&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Audio Multimodality: Expanding AI Interaction with Spring AI and OpenAI]]></title><link>https://spring.io/blog/2024/12/05/spring-ai-audio-modality</link><guid isPermaLink="true">https://spring.io/blog/2024/12/05/spring-ai-audio-modality</guid><dc:creator><![CDATA[tzolov]]></dc:creator><pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;This blog post is co-authored by our great contributor &lt;a href=&quot;https://www.linkedin.com/in/vitalethomas/&quot;&gt;Thomas Vitale&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;OpenAI provides specialized models for &lt;code&gt;speech-to-text&lt;/code&gt; and &lt;code&gt;text-to-speech&lt;/code&gt; conversion, recognized for their performance and cost-efficiency. Spring AI integrates these capabilities via &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/audio/transcriptions/openai-transcriptions.html&quot;&gt;Voice-to-Text&lt;/a&gt; and &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/audio/speech/openai-speech.html&quot;&gt;Text-to-Speech (TTS)&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t70PITMzrxU?si=u5sINSyETHfmILdJ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;The new &lt;a href=&quot;https://platform.openai.com/docs/guides/audio&quot;&gt;Audio Generation&lt;/a&gt; feature (&lt;code&gt;gpt-4o-audio-preview&lt;/code&gt;) goes further, enabling mixed input and output modalities. Audio inputs can contain richer data than text alone. Audio can convey nuanced information like tone and inflection, and together with the audio outputs it enables asynchronous &lt;code&gt;speech-to-speech&lt;/code&gt; interactions.
+Additionally, this new multimodality opens up possibilities for innovative applications, such as structured data extraction. Developers can extract structured information not just from simple text, but also from images and audio, building complex, structured objects seamlessly.&lt;/p&gt;
+&lt;h2 id=&quot;spring-ai-audio-integrations&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-ai-audio-integrations&quot; aria-label=&quot;spring ai audio integrations permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring AI Audio Integrations&lt;/h2&gt;
+&lt;p&gt;The Spring AI &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/multimodality.html&quot;&gt;Multimodality Message API&lt;/a&gt; simplifies the integration of multimodal capabilities with various AI models.&lt;/p&gt;
+&lt;img src=&quot;https://docs.spring.io/spring-ai/reference/_images/spring-ai-message-api.jpg&quot; width=&quot;600&quot; align=&quot;center&quot;&gt;
+&lt;p&gt;Now it fully supports OpenAI¡¯s &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html#_audio&quot;&gt;Audio Input&lt;/a&gt; and &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html#_output_audio&quot;&gt;Audio Output&lt;/a&gt; modalities, thanks in large part to community member &lt;a href=&quot;https://www.linkedin.com/in/vitalethomas/&quot;&gt;Thomas Vitale&lt;/a&gt;, who contributed to this feature&apos;s development.&lt;/p&gt;
+&lt;h3 id=&quot;setup&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#setup&quot; aria-label=&quot;setup permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Setup&lt;/h3&gt;
+&lt;p&gt;Follow the &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html&quot;&gt;Spring AI-OpenAI&lt;/a&gt; integration documentation to prepare your environment.&lt;/p&gt;
+&lt;h3 id=&quot;audio-input&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#audio-input&quot; aria-label=&quot;audio input permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Audio Input&lt;/h3&gt;
+&lt;p&gt;OpenAI¡¯s &lt;a href=&quot;https://platform.openai.com/docs/api-reference/chat/create#chat-create-messages&quot;&gt;User Message API&lt;/a&gt; accepts base64-encoded audio files within messages using the &lt;a href=&quot;https://github.com/spring-projects/spring-ai/blob/main/spring-ai-core/src/main/java/org/springframework/ai/chat/messages/Media.java&quot;&gt;Media&lt;/a&gt; type. Supported formats include &lt;code&gt;audio/mp3&lt;/code&gt; and &lt;code&gt;audio/wav&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example: Adding audio to an input prompt:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;// Prepare the audio resource
+var audioResource = new ClassPathResource(&quot;speech1.mp3&quot;);
+
+// Create a user message with audio and send it to the chat model
+String response = chatClient.prompt()
+        .user(u -&gt; u.text(&quot;What is this recording about?&quot;)
+                    .media(MimeTypeUtils.parseMimeType(&quot;audio/mp3&quot;), audioResource))                    
+        .options(OpenAiChatOptions.builder()
+            .withModel(OpenAiApi.ChatModel.GPT_4_O_AUDIO_PREVIEW).build())
+        .call()
+        .content();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;audio-output-generation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#audio-output-generation&quot; aria-label=&quot;audio output generation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Audio Output Generation&lt;/h3&gt;
+&lt;p&gt;The OpenAI &lt;a href=&quot;https://platform.openai.com/docs/api-reference/chat/create#chat-create-messages&quot;&gt;Assistant Message API&lt;/a&gt; can return base64-encoded audio files using the &lt;code&gt;Media&lt;/code&gt; type.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example: Generating audio output:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;// Generate an audio response
+ChatResponse response = chatClient
+    .prompt(&quot;Tell me a joke about the Spring Framework&quot;)
+    .options(OpenAiChatOptions.builder()
+        .withModel(OpenAiApi.ChatModel.GPT_4_O_AUDIO_PREVIEW)
+        .withOutputModalities(List.of(&quot;text&quot;, &quot;audio&quot;))
+        .withOutputAudio(new AudioParameters(Voice.ALLOY, AudioResponseFormat.WAV))
+        .build())
+    .call()
+    .chatResponse();
+
+// Access the audio transcript
+String audioTranscript = response.getResult().getOutput().getContent();
+
+// Retrieve the generated audio
+byte[] generatedAudio = response.getResult().getOutput().getMedia().get(0).getDataAsByteArray();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To generate audio output, specify the audio modality in &lt;code&gt;OpenAiChatOptions&lt;/code&gt;. Use the &lt;code&gt;AudioParameters&lt;/code&gt; class to customize the voice and the audio format.&lt;/p&gt;
+&lt;h2 id=&quot;voice-chatbot-demo&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#voice-chatbot-demo&quot; aria-label=&quot;voice chatbot demo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/tzolov/voice-assistant-chatbot&quot;&gt;Voice ChatBot Demo&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This example demonstrates building an interactive chatbot using Spring AI that supports input and output audio. It shows how AI can enhance user interaction with natural-sounding audio responses.&lt;/p&gt;
+&lt;h3 id=&quot;setup-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#setup-1&quot; aria-label=&quot;setup 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Setup&lt;/h3&gt;
+&lt;p&gt;Add the Spring AI OpenAI starter:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;dependency&gt;
+    &amp;#x3C;groupId&gt;org.springframework.ai&amp;#x3C;/groupId&gt;
+    &amp;#x3C;artifactId&gt;spring-ai-openai-spring-boot-starter&amp;#x3C;/artifactId&gt;
+&amp;#x3C;/dependency&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Configure the API key, model name, and output audio modality in &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;spring.main.web-application-type=none
+
+spring.ai.openai.api-key=${OPENAI_API_KEY}
+spring.ai.openai.chat.options.model=gpt-4o-audio-preview
+
+spring.ai.openai.chat.options.output-modalities=text,audio
+spring.ai.openai.chat.options.output-audio.voice=ALLOY
+spring.ai.openai.chat.options.output-audio.format=WAV
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;implementation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#implementation&quot; aria-label=&quot;implementation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Implementation&lt;/h3&gt;
+&lt;p&gt;The Java implementation of the voice chatbot, detailed below, creates a conversational AI assistant using audio input and output. It leverages Spring AI&apos;s integration with OpenAI models to enable seamless interactions with users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VoiceAssistantApplication&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;VoiceAssistantApplication&lt;/code&gt; serves as the main application.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;CommandLineRunner&lt;/code&gt; bean initializes the chatbot:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;ChatClient&lt;/code&gt; is configured using the &lt;code&gt;systemPrompt&lt;/code&gt; for contextual understanding and an in-memory chat memory for conversation history.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Audio&lt;/code&gt; utility is used to record voice input from the user and play back audio responses generated by the AI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Chat Loop:&lt;/strong&gt; Inside the loop:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Voice Recording:&lt;/strong&gt; The &lt;code&gt;audio.startRecording()&lt;/code&gt; and &lt;code&gt;audio.stopRecording()&lt;/code&gt; methods handle the recording process, pausing for user input.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Processing AI Response:&lt;/strong&gt; The user message is sent to the AI model via &lt;code&gt;chatClient.prompt()&lt;/code&gt;. The audio data is encapsulated in the &lt;code&gt;Media&lt;/code&gt; object.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Response Handling:&lt;/strong&gt; The AI-generated response is retrieved as text and played back as audio using the &lt;code&gt;Audio.play()&lt;/code&gt; method.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Refer to the following code snippet for the implementation:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Bean
+public CommandLineRunner chatBot(ChatClient.Builder chatClientBuilder,
+        @Value(&quot;${chatbot.prompt:classpath:/marvin.paranoid.android.txt}&quot;) Resource systemPrompt) {
+    return args -&gt; {
+
+        var chatClient = chatClientBuilder.defaultSystem(systemPrompt)
+            .defaultAdvisors(new MessageChatMemoryAdvisor(new InMemoryChatMemory()))
+            .build();
+
+        try (Scanner scanner = new Scanner(System.in)) {
+
+            Audio audio = new Audio();
+
+            while (true) {                    
+                audio.startRecording();
+                System.out.print(&quot;Recording your question ... press &amp;#x3C;Enter&gt; to stop! &quot;);
+                scanner.nextLine();
+                audio.stopRecording();
+
+                System.out.print(&quot;PROCESSING ... &quot;);
+
+                AssistantMessage response = chatClient.prompt()
+                    .messages(new UserMessage(&quot;Please answer the questions in the audio input&quot;,
+                            new Media(MediaType.parseMediaType(&quot;audio/wav&quot;),
+                                    new ByteArrayResource(audio.getLastRecording()))))
+                    .call()
+                    .chatResponse()
+                    .getResult()
+                    .getOutput();
+
+                System.out.println(&quot;ASSISTANT: &quot; + response.getContent());
+                Audio.play(response.getMedia().get(0).getDataAsByteArray());
+            }
+        }
+    };
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;Audio&lt;/code&gt; utility, for capturing and playing back audio, is a single class leveraging the plain &lt;code&gt;Java Sound API&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; ???????? ???? ???????  ?? ????     ??? ?????                                    
+??   ?? ???? ??  ?  ????????       ?? ??  ?                                      
+ ???????? ?????  ?  ?? ????????    ?????  ?                                      
+???????   ?? ?????????  ???????    ?? ???????                                    
+????  ??? ????  ??? ??  ?? ??? ?????????      ??? ??  ?????? ????  ??? ????????? 
+?? ???? ???? ???? ?????????? ??  ?  ??  ?    ?? ??????????  ??? ???? ??  ?  ??  ?
+???? ????????????????? ????? ??  ?  ??  ?    ??????? ?????  ???????? ??  ?  ??  ?
+??   ?? ???? ???? ????  ?????????????????    ?? ????  ????????? ?????????????????
+
+2024-12-01T11:00:11.274+01:00  INFO 31297 --- [voice-assistant-chatbot] [           main] s.a.d.a.m.VoiceAssistantApplication      : Started VoiceAssistantApplication in 0.827 seconds (process running for 1.054)
+
+Recording your question ... press &amp;#x3C;Enter&gt; to stop!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The complete demo is available on GitHub: &lt;a href=&quot;https://github.com/tzolov/voice-assistant-chatbot&quot;&gt;voice-assistant-chatbot&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;important-considerations&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#important-considerations&quot; aria-label=&quot;important considerations permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Important Considerations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tzolov/voice-assistant-chatbot&quot;&gt;One hour of&lt;/a&gt; audio input is roughly equivalent to 128k tokens.&lt;/li&gt;
+&lt;li&gt;The model currently supports &lt;code&gt;modalities = [&quot;text&quot;, &quot;audio&quot;]&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Future updates may offer more flexible modality controls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;gpt-4o-audio-preview&lt;/code&gt; model unlocks new possibilities for dynamic audio interactions, enabling developers to build rich, AI-powered audio applications.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Disclaimer: API capabilities and features may evolve. Refer to the latest OpenAI and Spring AI documentation for updates.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Tools 4.27.0 released]]></title><link>https://spring.io/blog/2024/12/04/spring-tools-4-27-0-released</link><guid isPermaLink="true">https://spring.io/blog/2024/12/04/spring-tools-4-27-0-released</guid><dc:creator><![CDATA[martinlippert]]></dc:creator><pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the 4.27.0 release of the Spring Tools 4 for Visual Studio Code, Eclipse and Theia.&lt;/p&gt;
+&lt;h4 id=&quot;important-highlights&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#important-highlights&quot; aria-label=&quot;important highlights permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;important highlights&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; Support for &lt;code&gt;@ConditionalOnProperty&lt;/code&gt; annotations: completions, navigate to definition and find references&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; Find references support for property keys in &lt;code&gt;@Value&lt;/code&gt; annotation&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; Support concatenated Strings for data queries inside &lt;code&gt;@Query&lt;/code&gt; annotations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;updates-to-the-spring-tools-4-for-eclipse-distribution&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#updates-to-the-spring-tools-4-for-eclipse-distribution&quot; aria-label=&quot;updates to the spring tools 4 for eclipse distribution permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;updates to the Spring Tools 4 for Eclipse distribution&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;updated to Eclipse 2024-12 release (&lt;a href=&quot;https://eclipseide.org/release/noteworthy/&quot;&gt;new and noteworthy&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detailed changes can be found in the release notes: &lt;a href=&quot;https://github.com/spring-projects/sts4/releases/tag/4.27.0.RELEASE&quot;&gt;https://github.com/spring-projects/sts4/releases/tag/4.27.0.RELEASE&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;downloads&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#downloads&quot; aria-label=&quot;downloads permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;downloads&lt;/h4&gt;
+&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Tools 4: &lt;a href=&quot;https://spring.io/tools/&quot;&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Spring Tools 4.28.0 is scheduled to be released in late January 2025.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Extending Spring Data Repositories Just Got Easier]]></title><link>https://spring.io/blog/2024/12/03/extending-spring-data-repositories-just-got-easier</link><guid isPermaLink="true">https://spring.io/blog/2024/12/03/extending-spring-data-repositories-just-got-easier</guid><dc:creator><![CDATA[christophstrobl]]></dc:creator><pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Since its inception, Spring Data Repositories have been designed for extension, whether you want to customize a single query method or provide a completely new base implementation.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/wiki/Spring-Data-2024.1-Release-Notes&quot;&gt;2024.1 release&lt;/a&gt; enhances your ability to extend a repository with &lt;a href=&quot;https://docs.spring.io/spring-data/commons/reference/repositories/custom-implementations.html&quot;&gt;custom functionality&lt;/a&gt; making it easier than ever for anyone to create extensions that can be shared across different projects.&lt;/p&gt;
+&lt;p&gt;Let¡¯s explore an example to see how this works in practice.&lt;/p&gt;
+&lt;p&gt;Imagine you are using MongoDB as a document store to manage a movie database. You want to leverage MongoDBs Atlas &lt;a href=&quot;https://www.mongodb.com/docs/atlas/atlas-vector-search/vector-search-stage/&quot;&gt;vector search&lt;/a&gt; functionality through your repository interfaces for AI-powered search operations. Typically, you¡¯d create a custom repository fragment like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;package io.movie.db;
+
+interface AtlasMovieRepository {
+   List&amp;#x3C;Movie&gt; vectorSearch(String index, String path, List&amp;#x3C;Double&gt; vector, Limit limit);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, since you&apos;re working with the &lt;code&gt;Movie&lt;/code&gt; type, you already know the collection. The index parameter specifies the vector index to use, and path defines the field holding the &lt;a href=&quot;https://www.mongodb.com/docs/atlas/atlas-vector-search/create-embeddings/&quot;&gt;vector embeddings&lt;/a&gt; for comparison. The similarity function (e.g., euclidean, cosine, or dotProduct) is determined when you set up the index. Let¡¯s assume a cosine vector index is already in place.&lt;/p&gt;
+&lt;p&gt;In your fragment implementation, you will need to create the &lt;code&gt;$vectorSearch&lt;/code&gt; aggregation stage, MongoDB&apos;s approach to running vector searches, and integrate it into the Aggregation API using &lt;code&gt;MongoOperations&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;package io.movie.db;
+
+class AtlasMovieRepositoryFragment implements AtlasMovieRepository {
+
+   private final MongoOperations mongoOperations;
+
+   public AtlasMovieRepositoryFragment(MongoOperations mongoOperations) {
+       this.mongoOperations = mongoOperations;
+   }
+
+   @Override
+   public List&amp;#x3C;Movie&gt; vectorSearch(String index, String path, List&amp;#x3C;Double&gt; vector, Limit limit) {
+       Document $vectorSearch = createSearchDocument(index, path, vector, limit);
+       Aggregation aggregation = Aggregation.newAggregation(ctx -&gt; $vectorSearch);
+       return mongoOperations.aggregate(aggregation, &quot;movies&quot;, Movie.class).getMappedResults();
+   }
+
+   private static Document createSearchDocument(String index, String path, List&amp;#x3C;Double&gt; vector, Limit limit) {
+       Document $vectorSearch = new Document();
+       $vectorSearch.append(&quot;index&quot;, index);
+       $vectorSearch.append(&quot;path&quot;, path);
+       $vectorSearch.append(&quot;queryVector&quot;, vector);
+       $vectorSearch.append(&quot;limit&quot;, limit.max());
+
+       return new Document(&quot;$vectorSearch&quot;, $vectorSearch);
+   }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, simply integrate the fragment into your &lt;code&gt;MovieRepository&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;package io.movie.db;
+
+interface MovieRepository extends CrudRepository&amp;#x3C;Movie, String&gt;, AtlasMovieRepository { }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;While this approach works, you might notice that it is tightly coupled to a single repository with a specific domain type (&lt;code&gt;Movie&lt;/code&gt;). This makes it difficult to reuse in other projects, as the fragment implementations are tied to the repository¡¯s package and are domain-specific.&lt;/p&gt;
+&lt;p&gt;But vector search isn&apos;t limited to just our Movie database. What if we want to reuse this functionality in other projects without copying and modifying the solution? Let¡¯s explore a way to make this more generic.&lt;/p&gt;
+&lt;h3 id=&quot;making-it-reusable&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#making-it-reusable&quot; aria-label=&quot;making it reusable permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Making It Reusable&lt;/h3&gt;
+&lt;p&gt;To enable reuse, we move the &lt;code&gt;AtlasMovieRepository&lt;/code&gt; and its implementation to a separate project so that it can be shared. Then, we register the fragment within the &lt;code&gt;META-INF/spring.factories&lt;/code&gt; file, so that Spring Data knows about the extension:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;api.mongodb.atlas.AtlasMovieRepository=api.mongodb.atlas.AtlasMovieRepositoryFragment
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;However, the current implementation is still tied to the &lt;code&gt;Movie&lt;/code&gt; type, limiting its reusability. To fix this, we need to make the fragment more generic. Rename &lt;code&gt;AtlasMovieRepository&lt;/code&gt; to &lt;code&gt;AtlasRepository&lt;/code&gt; and introduce a generic type parameter. Don¡¯t forget to update the &lt;code&gt;spring.factories&lt;/code&gt; file as well.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;package api.mongodb.atlas;
+
+interface AtlasRepository&amp;#x3C;T&gt; {
+   List&amp;#x3C;T&gt; vectorSearch(String index, String path, List&amp;#x3C;Double&gt; vector, Limit limit);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next, we update the implementation to reflect the new generic approach, as we can no longer assume we&apos;re targeting the &lt;code&gt;Movie&lt;/code&gt; collection. Using the newly introduced &lt;code&gt;RepositoryMethodContext&lt;/code&gt;, we can access repository metadata and determine the appropriate collection name dynamically:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;package api.mongodb.atlas;
+
+class AtlasRepositoryFragment&amp;#x3C;T&gt; implements AtlasRepository&amp;#x3C;T&gt;, RepositoryMetadataAccess {
+
+   private MongoOperations mongoOperations;
+
+   public AtlasRepositoryFragment(MongoOperations mongoOperations) {
+       this.mongoOperations = mongoOperations;
+   }
+
+   @Override
+   public List&amp;#x3C;T&gt; vectorSearch(String index, String path, List&amp;#x3C;Double&gt; vector, Limit limit) {
+       RepositoryMethodContext methodContext = RepositoryMethodContext.getContext();
+
+       Class&amp;#x3C;?&gt; domainType = methodContext.getMetadata().getDomainType();
+
+       Document $vectorSearch = createSearchDocument(index, path, vector, limit);
+       Aggregation aggregation = Aggregation.newAggregation(ctx -&gt; $vectorSearch);
+       return (List&amp;#x3C;T&gt;) mongoOperations.aggregate(aggregation, mongoOperations.getCollectionName(domainType), domainType).getMappedResults();
+   }
+
+   private static Document createSearchDocument(String indexName, String path, List&amp;#x3C;Double&gt; vector, Limit limit) {
+       Document $vectorSearch = new Document();
+       //¡¦
+   }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The provided method context not only allows you to access general information about the repository, but also gives you access to the repositories&apos; generics, methods etc. In the above snippet we assume that the repository domain type aligns with our custom fragment, which must not be the case. So instead we could also read the component type of the interface via &lt;code&gt;ResolvableType.forClass(getRepositoryInterface()).as(AtlasRepository.class).getGeneric(0)&lt;/code&gt; or even check the current methods return type to apply additional manipulation like projections and the such. For simplicity let¡¯s stick with the domain type in this sample.&lt;/p&gt;
+&lt;p&gt;To avoid unnecessary overhead, we only enable context access for repositories that need it.
+Looking carefully at the code above you will see that there is an extra &lt;code&gt;RepositoryMetadataAccess&lt;/code&gt; interface on the &lt;code&gt;AtlasRepositoryFragment&lt;/code&gt; class. This marker interfaces advises the infrastructure to provide the required metadata on method invocation.&lt;/p&gt;
+&lt;p&gt;With that setup, you can now use the custom extension in any project by simply extending your repository:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;package io.movie.db;
+
+interface MovieRepository extends CrudRepository&amp;#x3C;Movie, String&gt;, AtlasRepository&amp;#x3C;Movie&gt; { }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To try it out, visit the &lt;a href=&quot;https://github.com/spring-projects/spring-data-examples/tree/main/mongodb/fragment-spi&quot;&gt;Spring Data Examples&lt;/a&gt; project, where you¡¯ll find the code ready to run.&lt;/p&gt;</content:encoded></item></channel></rss>
